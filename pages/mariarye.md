@@ -1,3 +1,10 @@
+---
+title: Maria S. Rye
+layout: About
+permalink: /Rye.html
+# see _data/config-map.csv for display options
+# do not add content to this file
+---
 ## Maria S. Rye
 Maria Susan Rye was born March 31st, 1829 in London England. She was the eldest of nine children born to London solicitor, Edward Rye. He and all of his children were well-educated, but a series of disastrous business decisions would impoverish the family. She would never marry.
 
