@@ -18,6 +18,15 @@ $link-color: {{ site.data.theme.link-color | default: '""' }};
 {% assign color = btn.color | strip %}{% if color != empty %}
 ${{ btn.color_class | slugify }}: {{ color }};{% endif %}
 {% endfor %}
+
+/* changing to custom css - vanessa */
+
+/* Main Text and Headers */
+$text-color: #28536b; // main text color
+h1, h2, h3, h4, h5, h,6 {
+  color: #28536b; 
+}
+
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
