@@ -10,20 +10,17 @@ credits: true
 
 {% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
-
+{% include feature/nav-menu.html sections="About the Project;Credits;About the Collection;" %}
 ## About the Project
 
-This website was created as part of the course Web Fragility and the Future of Knowledge, offered during the 2025 fall term at the University of Ottawa. This course addressed past, present, and future problems around archiving and maintaining digital information infrastructure and the ways in which these systems may be improved to ensure valuable information remains accessible on the web into the future.
+This website was created as part of the course _Web Fragility and the Future of Knowledge_, offered during the 2025 fall term at the University of Ottawa. This course addressed past, present, and future problems around archiving and maintaining digital information infrastructure and the ways in which these systems may be improved to ensure valuable information remains accessible on the web into the future.
 
-This course brought together undergraduate students interested in digital humanities and information studies graduate students to collaborate on what would become the (website title), which collates a selection of Canadiana materials on Canadian Home Children and presents them in a more accessible format than is currently available on the Canadiana website. The website will allow for those interested in Canadian Home Children and the Barnardo Homes in particular to search through these materials more easily.
+This course brought together undergraduate students interested in digital humanities and information studies graduate students to collaborate on what would become the _British Home Children in Canada_ website, which collates a selection of Canadiana materials on Canadian Home Children and presents them in a more accessible format. The website will allow for those interested in Canadian Home Children, and in particular the Barnardo Homes, to search through these materials more easily.
 
-Students learned to use several open source software tools including CollectionBuilder, OpenRefine, Git and GitHub, and Visual Studio Code. These tools allow for the relatively easy creation of static websites that are easier to maintain and archive.
-
+Students learned to use several open source software tools including CollectionBuilder, OpenRefine, Git and GitHub, and Visual Studio Code. These tools allow for the creation of static websites that are easier to maintain and archive.
 ## Positionality Statement
 
 We represent a diverse and disparate set of identities including, but not limited to, various genders, racial and ethnic makeups, and nationalities. Included amongst us are those who identify as Canadian settler-colonists and those who are not themselves Canadian. We are graduate students and undergraduate students, some of whom are traditional students and others who are non-traditional students. We each bring with us our own preconceptions of the world built on our lived experiences which may permeate our work.
-
 ## Credits
 
 The course was taught and the project was overseen by Constance Crompton.
