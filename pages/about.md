@@ -7,9 +7,6 @@ credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-
-{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
-
 {% include feature/nav-menu.html sections="About the Project;Positionality Statement;Credits;About the Collection;" %}
 ## About the Project
 This website was created as part of the course _Web Fragility and the Future of Knowledge_, offered during the 2025 fall term at the University of Ottawa. This course addressed past, present, and future problems around archiving and maintaining digital information infrastructure and the ways in which these systems may be improved to ensure valuable information remains accessible on the web into the future.
