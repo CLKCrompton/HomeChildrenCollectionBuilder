@@ -19,50 +19,6 @@ $link-color: {{ site.data.theme.link-color | default: '""' }};
 ${{ btn.color_class | slugify }}: {{ color }};{% endif %}
 {% endfor %}
 
-/* changing to custom css - vanessa */
-
-/* Main Text and Headers */
-$text-color: #28536b; // main text color
-$body-color: #28536b; // paragraph text color
-$link-color: #28536b;
-$headings-color: #28536b; // H1-H6 to be safe
-
-h1, h2, h3, h4, h5, h6, {
-  color: #28536b !important;
-
-}
-
-/* Background */
-$body-bg: #f6f0ed;     // Cream background
-
-/* Nav bar */
-.navbar,
-.navbar-dark.bg-dark {
-  background-color: #28536b !important; // Dark blue nav bar
-}
-
-.navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-brand {
-  color: #f6f0ed !important;
-}
-/* Buttons */
-/* Override primary setting for buttons to be pink */
-$btn-primary-bg: #c2948a;
-$btn-primary-border-color: #c2948a;
-$btn-primary-color: #28536b;  // Text inside buttons
-
-/* Hover state to be finalized
-$btn-primary-hover-bg: darken(#c2948a, 6%);
-$btn-primary-hover-border-color: darken(#c2948a, 6%);
-*/
-
-$theme-colors: (
-  "primary": #28536b,  // main brand color
-  "secondary": #c2948a,
-  "light": #f6f0ed,
-  "dark": #000000 // try this fn
-);
-
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
