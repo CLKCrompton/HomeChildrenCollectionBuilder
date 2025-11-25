@@ -2,11 +2,28 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
-/* Force global background and text colors */
+/* Vanessa customizing css lets go :) */
+
+/* GLOBAL FONT OVERRIDE */
 :root {
-  --bs-body-bg: #f6f0ed !important;
+    --bs-body-font-family: 'Trebuchet MS', sans-serif !important
+}
+
+/* making sure body and html use this font */
+html, body {
+    font-family:'Trebuchet MS', sans-serif !important
+}
+
+/* making sure headings use it */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Trebuchet MS', sans-serif !important
+}
+
+/* GLOBAL BACKGROUND AND TEXT COLOR OVERRIDE */
+:root {
+  --bs-body-bg: #f6f0ed !important; // cream background
   --bs-body-bg-rgb: 246, 240, 237 !important;
 
-  --bs-body-color: #28536b !important;
-  --bs-heading-color: #28536b !important;
+  --bs-body-color: #28536b !important; // main text dark blue
+  --bs-heading-color: #28536b !important; // headings dark blye
 }
