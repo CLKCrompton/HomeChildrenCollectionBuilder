@@ -1,5 +1,5 @@
 ---
-title: Thomas J. Bardardo
+title: Thomas J. Barnardo
 layout: about
 permalink: /barnardo.html
 ---
