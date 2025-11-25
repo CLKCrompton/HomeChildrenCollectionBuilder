@@ -1,7 +1,7 @@
 ---
 title: Maria S. Rye
 layout: About
-permalink: /Rye.html
+permalink: /mariarye.html
 # defines maria rye links and such..
 ---
 ## Maria S. Rye
