@@ -25,5 +25,24 @@ h1, h2, h3, h4, h5, h6 {
   --bs-body-bg-rgb: 246, 240, 237 !important;
 
   --bs-body-color: #28536b !important; // main text dark blue
-  --bs-heading-color: #28536b !important; // headings dark blye
+  --bs-heading-color: #28536b !important; // headings dark blue
+
+  --bs-link-color: #28536b !important;
+  --bs-link-hover-color: #1e3e4e !important;   // Slightly darker but there will also be an underline //
+}
+
+/* LINK STYLING AS MENTIONED ABOVE 
+DARK TEXT IN NORMAL STATE, DARKER + UNDERLINE ON HOVER */
+a {
+    color:#28536b !important; 
+    text-decoration: none !important; // standard no underline until hover
+}
+/* Hover magic */
+a:hover,
+a:focus,
+a:active {
+    color: #1e3e4e !important // slightly darker
+    text-decoration: underline !important // non color indicator 
+    text-decoration-thickness: 2px; // trying this?
+    text-underline-offset: 2px; //trying this too? prettier underline
 }
