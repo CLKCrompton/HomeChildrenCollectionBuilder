@@ -37,6 +37,7 @@ a {
     color:#28536b !important; 
     text-decoration: none !important; // standard no underline until hover
 }
+
 /* Hover magic */
 a:hover,
 a:focus,
@@ -45,6 +46,25 @@ a:active {
     text-decoration: underline !important // non color indicator 
     text-decoration-thickness: 2px; // trying this?
     text-underline-offset: 2px; //trying this too? prettier underline
+}
+
+/* BUTTON STYLING */
+.btn {
+    background-color:#c2948a !important;
+    border: 2px solid #c2948a !important;
+    color:#28536b !important; // text color inactive
+    font-weight: bold !important;
+    transition: all 0.22s ease-in-out; // hover animation
+    transform: scale(1); // default size
+}
+
+/* button hover effect */
+.btn:hover,
+.btn:focus {
+    background-color: #28536b !important;
+    border-color: #28536b !important;
+    color:#c2948a. !important; // inverse upon hover
+    transform: scale(1.05); // grows to communicate activity
 }
 
 /* HEADINGS AND TEXT COLOR */
@@ -116,7 +136,8 @@ footer .nav-link:hover {
   background-color: #c2948a !important;  // Pink button 
   border: 2px solid #c2948a !important;
   color: #28536b !important;            // Dark blue text/icon 
-  font-weight: 600;
+  font-weight: bold !important // make it bold
+  transform: scale(1);
 }
 
 /* Hover state */
@@ -124,7 +145,8 @@ footer .nav-link:hover {
   background-color:  #28536b !important;    // inverses     
   border-color:  #28536b !important;     // inverses   
   color:#c2948a // inverses 
-  font-weight: 600;
+  font-weight: bold !important; // make it bold
+  transform: scale(1.05);
 }
 
 /* Mobile — move to bottom-right */
