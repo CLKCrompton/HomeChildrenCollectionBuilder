@@ -67,6 +67,14 @@ a:active {
     transform: scale(1.05); // grows to communicate activity
 }
 
+a.btn:hover,
+.btn a:hover,
+button.btn:hover,
+a.btn:focus,
+abtn a:focus,
+button.btn:focus {
+    text-decoration: none !important; // links have underlines but buttons dont
+}
 /* HEADINGS AND TEXT COLOR */
 h1, h2, h3, h4, h5, h6 {
     color:#28536b !important;
