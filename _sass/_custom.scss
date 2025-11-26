@@ -159,12 +159,13 @@ footer .nav-link:hover {
 }
 
 /* FORCE BANNER TO HAVE CREAM TEXT*/
-.collection-banner h1 {
-    color:#f6f0ed !important; 
+#home-banner .p-2.text-center.text-white.bg-dark.bg-opacity-75 h1,
+#home-banner .p-2.text-center.text-white.bg-dark.bg-opacity-75 p {
+    color: #f6f0ed !important;
 }
 
 /* TROUBLESHOOT BANNER IMAGE POSITIONING */
-.collection-banner {
+#home-banner {
     background-size: 120% auto !important; // try different scales 100-150 range
     background-position: center 30% !important; // try shifting image 
 }
