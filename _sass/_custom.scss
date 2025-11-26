@@ -137,6 +137,13 @@ footer .nav-link {
   color: #f6f0ed !important;
 }
 
+footer,
+footer p,
+footer a,
+footer .text-muted {
+    color:#f6f0ed !important;
+}
+
 footer .nav-link:hover {
   text-decoration: underline; // no comms through color
 }
