@@ -50,19 +50,18 @@ a:active {
 
 /* BUTTON STYLING */
 .btn {
-    background-color:#7ea8be !important;
-    border-color: #7ea8be!important;
+    background-color: transparent !important;
+    border: 2px solid #28536b!important;
     color:#28536b!important; // text color inactive
-    font-weight: bold !important;
+    font-weight:500 !important;
     transition: all 0.22s ease-in-out; // hover animation
-    transform: scale(1); // default size
 }
 
 /* button hover effect */
 .btn:hover,
 .btn:focus {
-    background-color:#7ea8be !important;
-    border-color: #7ea8be !important;
+    background-color:#28536b !important;
+    border-color: #28536b !important;
     color:#ffffff !important; // inverse upon hover
     transform: scale(1.05); // grows to communicate activity
 }
