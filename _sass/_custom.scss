@@ -46,3 +46,47 @@ a:active {
     text-decoration-thickness: 2px; // trying this?
     text-underline-offset: 2px; //trying this too? prettier underline
 }
+
+/* HEADINGS AND TEXT COLOR */
+h1, h2, h3, h4, h5, h6 {
+    color:#28536b !important;
+}
+
+p, li, span, small, strong, em {
+    color:#28536b !important
+}
+
+/* NAV BAR STYLING */ 
+.navbar,
+.navbar-dark.bg-dark {
+    background-color: #28536b !important; // dark blue nav container
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    color:#f6f0ed !important; // cream text in nav bar
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    color: inherit !important; // cream text in nav bar don't communicate change w color
+}
+
+/* FOOTER STYLING */
+footer.bg-dark {
+    background-color: #28536b !important; // dark blue footer mactch main nav
+}
+
+footer .border-white {
+    border-color:#f6f0ed !important;
+}
+
+footer .text-white,
+footer .text-light,
+footer .nav-link {
+  color: #f6f0ed !important;
+}
+
+footer .nav-link:hover {
+  text-decoration: underline; // no comms through color
+}
