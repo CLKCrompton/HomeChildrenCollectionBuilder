@@ -50,9 +50,9 @@ a:active {
 
 /* BUTTON STYLING */
 .btn {
-    background-color:#c2948a !important;
-    border: 2px solid #c2948a !important;
-    color:#28536b !important; // text color inactive
+    background-color:#28536b !important;
+    border-color: #28536b!important;
+    color:#c2948a !important; // text color inactive
     font-weight: bold !important;
     transition: all 0.22s ease-in-out; // hover animation
     transform: scale(1); // default size
@@ -61,9 +61,9 @@ a:active {
 /* button hover effect */
 .btn:hover,
 .btn:focus {
-    background-color: #28536b !important;
-    border-color: #28536b !important;
-    color:#c2948a !important; // inverse upon hover
+    background-color: #c2948a !important;
+    border-color: #c2948a !important;
+    color:#28536b !important; // inverse upon hover
     transform: scale(1.05); // grows to communicate activity
 }
 
