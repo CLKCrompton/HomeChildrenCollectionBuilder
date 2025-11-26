@@ -3,22 +3,27 @@
   <head prefix="og: http://ogp.me/ns#">
     {% include head/head.html %}
   </head>
+
   <body class="d-flex flex-column h-100">
+
     <div id="floating-search">
-      {% include nav-search-lunr.html}
+      {% include nav-search-lunr.html %}
     </div>
+
     <div id="skip-to-content">
       <a href="#maincontent">Skip to main content</a>
     </div>
-    {% include collection-banner.html %}
 
+    {% include collection-banner.html %}
     {% include collection-nav.html %}
+
     <main id="maincontent" role="main" class="flex-shrink-0">
       {{ content }}
     </main>
-    
+
     {% include footer.html %}
     {% include foot.html %}
     {% include scroll-to-top.html %}
+    
   </body>
 </html>
