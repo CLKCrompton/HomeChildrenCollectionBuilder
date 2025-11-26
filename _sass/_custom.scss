@@ -90,3 +90,48 @@ footer .nav-link {
 footer .nav-link:hover {
   text-decoration: underline; // no comms through color
 }
+
+/* SEARCH BAR STYLE WHEN MOVED TO TOP RIGHT CORNER */
+#floating-search {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 5000;
+}
+
+/* Style search form */
+#floating-search-form {
+  display: flex;
+}
+
+/* Input field styling */
+#floating-search-form input#site-search {
+  border: 2px solid #28536b;
+  background-color: #ffffff;
+  color: #28536b;
+}
+
+/* Search button styling */
+#floating-search-btn {
+  background-color: #c2948a !important;  // Pink button 
+  border: 2px solid #c2948a !important;
+  color: #28536b !important;            // Dark blue text/icon 
+  font-weight: 600;
+}
+
+/* Hover state */
+#floating-search-btn:hover {
+  background-color:  #28536b !important;    // inverses     
+  border-color:  #28536b !important;     // inverses   
+  color:#c2948a // inverses 
+  font-weight: 600;
+}
+
+/* Mobile — move to bottom-right */
+@media (max-width: 768px) {
+  #floating-search {
+    top: auto;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
