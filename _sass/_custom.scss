@@ -75,6 +75,7 @@ abtn a:focus,
 button.btn:focus {
     text-decoration: none !important; // links have underlines but buttons dont
 }
+
 /* HEADINGS AND TEXT COLOR */
 h1, h2, h3, h4, h5, h6 {
     color:#28536b !important;
@@ -91,14 +92,14 @@ p, li, span, small, strong, em {
 }
 
 .navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-toggler-icon,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
     color:#f6f0ed !important; // cream text in nav bar
+    text-decoration: none !important;
 }
 
-.navbar-dark .navbar-nav .nav-link,
-.navbar-dark .navbar-brand {
-    color: inherit !important; // cream text in nav bar don't communicate change w color
-}
 
 /* FOOTER STYLING */
 footer.bg-dark {
