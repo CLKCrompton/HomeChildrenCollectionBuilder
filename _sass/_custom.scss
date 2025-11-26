@@ -52,7 +52,7 @@ a:active {
 .btn {
     background-color:#28536b !important;
     border-color: #28536b!important;
-    color:#f6f0ed !important; // text color inactive
+    color:#7ea8be!important; // text color inactive
     font-weight: bold !important;
     transition: all 0.22s ease-in-out; // hover animation
     transform: scale(1); // default size
@@ -61,8 +61,8 @@ a:active {
 /* button hover effect */
 .btn:hover,
 .btn:focus {
-    background-color:#f6f0ed !important;
-    border-color: #f6f0ed !important;
+    background-color:#7ea8be !important;
+    border-color: #7ea8be !important;
     color:#28536b !important; // inverse upon hover
     transform: scale(1.05); // grows to communicate activity
 }
