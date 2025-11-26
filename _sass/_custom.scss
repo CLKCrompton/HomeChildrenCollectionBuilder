@@ -175,6 +175,13 @@ footer .nav-link:hover {
 
 /* TROUBLESHOOT BANNER IMAGE POSITIONING */
 #home-banner {
-    background-size: 120% auto !important; // try different scales 100-150 range
-    background-position: center 30% !important; // try shifting image 
+    background-size: conatain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-color: #f6f0ed !important;
+}
+
+#home-title-box {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
 }
