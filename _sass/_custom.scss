@@ -163,3 +163,9 @@ footer .nav-link:hover {
 .collection-banner h2 {
     color:#c2948a !important; 
 }
+
+/* TROUBLESHOOT BANNER IMAGE POSITIONING */
+.collection-banner {
+    background-size: 120% auto !important; // try different scales 100-150 range
+    background-position: : center 30% !important; // try shifting image upward
+}
