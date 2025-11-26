@@ -100,6 +100,15 @@ p, li, span, small, strong, em {
     text-decoration: none !important;
 }
 
+/* Center navigation bar post space bar removal */
+.navbar {
+    justify-content: center !important;
+}
+
+.navbar-nav {
+    margin: 0 auto !important;
+}
+
 
 /* FOOTER STYLING */
 footer.bg-dark {
