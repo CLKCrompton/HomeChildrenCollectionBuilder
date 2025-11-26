@@ -42,8 +42,8 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #1e3e4e !important // slightly darker
-    text-decoration: underline !important // non color indicator 
+    color: #1e3e4e !important; // slightly darker
+    text-decoration: underline !important; // non color indicator 
     text-decoration-thickness: 2px; // trying this?
     text-underline-offset: 2px; //trying this too? prettier underline
 }
@@ -63,7 +63,7 @@ a:active {
 .btn:focus {
     background-color: #28536b !important;
     border-color: #28536b !important;
-    color:#c2948a. !important; // inverse upon hover
+    color:#c2948a !important; // inverse upon hover
     transform: scale(1.05); // grows to communicate activity
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, li, span, small, strong, em {
-    color:#28536b !important
+    color:#28536b !important;
 }
 
 /* NAV BAR STYLING */ 
@@ -136,7 +136,7 @@ footer .nav-link:hover {
   background-color: #c2948a !important;  // Pink button 
   border: 2px solid #c2948a !important;
   color: #28536b !important;            // Dark blue text/icon 
-  font-weight: bold !important // make it bold
+  font-weight: bold !important; // make it bold
   transform: scale(1);
 }
 
@@ -144,12 +144,12 @@ footer .nav-link:hover {
 #floating-search-btn:hover {
   background-color:  #28536b !important;    // inverses     
   border-color:  #28536b !important;     // inverses   
-  color:#c2948a // inverses 
+  color:#c2948a !important; // inverses 
   font-weight: bold !important; // make it bold
   transform: scale(1.05);
 }
 
-/* Mobile — move to bottom-right */
+/* Mobile — move to bottom-right as rec*/
 @media (max-width: 768px) {
   #floating-search {
     top: auto;
