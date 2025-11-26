@@ -208,6 +208,12 @@ footer .navbar-nav .nav-link:hover {
     color: #f6f0ed !important;
 }
 
+/* Banner overlay */
+#home-banner .p-2.text-center {
+    background-color: rgba(30, 30, 30, 0.65) !important; /* dark grey, 65% opacity */
+    backdrop-filter: blur(1px); 
+}
+
 /* TROUBLESHOOT BANNER IMAGE POSITIONING */
 #home-banner {
     background-size: conatain !important;
