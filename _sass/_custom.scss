@@ -216,13 +216,14 @@ footer .navbar-nav .nav-link:hover {
 
 /* TROUBLESHOOT BANNER IMAGE POSITIONING */
 #home-banner {
-    background-size: contain !important;
+    background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position: 50% 20% !important;
+    background-position: center 20% !important;
     background-color: #ffffff !important;
+    min-height: 60vh;
 }
 
 #home-title-box {
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
 }
