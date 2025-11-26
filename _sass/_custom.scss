@@ -133,18 +133,18 @@ footer .nav-link:hover {
 
 /* Search button styling */
 #floating-search-btn {
-  background-color: #c2948a !important;  // Pink button 
-  border: 2px solid #c2948a !important;
-  color: #28536b !important;            // Dark blue text/icon 
+  background-color: #28536b !important;  // Blue button neutral
+  border: 2px solid #28536b !important;
+  color: #c2948a !important;            // pink text/icon 
   font-weight: bold !important; // make it bold
   transform: scale(1);
 }
 
 /* Hover state */
 #floating-search-btn:hover {
-  background-color:  #28536b !important;    // inverses     
-  border-color:  #28536b !important;     // inverses   
-  color:#c2948a !important; // inverses 
+  background-color:  #c2948a !important;    // inverses     
+  border-color:  #c2948a !important;     // inverses   
+  color:#28536b !important; // inverses 
   font-weight: bold !important; // make it bold
   transform: scale(1.05);
 }
