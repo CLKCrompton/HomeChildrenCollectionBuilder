@@ -158,11 +158,8 @@ footer .nav-link:hover {
   transform: scale(1.05);
 }
 
-/* Mobile — move to bottom-right as rec*/
-@media (max-width: 768px) {
-  #floating-search {
-    top: auto;
-    bottom: 1rem;
-    right: 1rem;
-  }
+/* FORCE BANNER TO HAVE CREAM TEXT*/
+.collection-banner h1,
+.collection-banner h2 {
+    color:#c2948a !important; 
 }
