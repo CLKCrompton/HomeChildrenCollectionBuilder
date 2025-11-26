@@ -4,7 +4,7 @@
 */
 /* Vanessa customizing css lets go :) */
 
-/* GLOBAL FONT OVERRIDE */
+/* ------------------------------GLOBAL FONT OVERRIDE------------------------------- */
 :root {
     --bs-body-font-family: 'Trebuchet MS', sans-serif !important
 }
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Trebuchet MS', sans-serif !important
 }
 
-/* GLOBAL BACKGROUND AND TEXT COLOR OVERRIDE */
+/* -----------------------GLOBAL BACKGROUND AND TEXT COLOR OVERRIDE---------------------- */
 :root {
   --bs-body-bg: #f6f0ed !important; // cream background
   --bs-body-bg-rgb: 246, 240, 237 !important;
@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6 {
   --bs-link-hover-color: #1e3e4e !important;   // Slightly darker but there will also be an underline //
 }
 
-/* LINK STYLING AS MENTIONED ABOVE 
-DARK TEXT IN NORMAL STATE, DARKER + UNDERLINE ON HOVER */
+/* ----------------------------LINK STYLING AS MENTIONED ABOVE 
+----------------DARK TEXT IN NORMAL STATE, DARKER + UNDERLINE ON HOVER------------------------------- */
 a {
     color:#28536b !important; 
     text-decoration: none !important; // standard no underline until hover
@@ -48,7 +48,7 @@ a:active {
     text-underline-offset: 2px; //trying this too? prettier underline
 }
 
-/* BUTTON STYLING */
+/* ----------------------BUTTON STYLING-------------------------------------- */
 .btn {
     background-color: transparent !important;
     border: 1px solid #28536b!important;
@@ -75,7 +75,7 @@ button.btn:focus {
     text-decoration: none !important; // links have underlines but buttons dont
 }
 
-/* HEADINGS AND TEXT COLOR */
+/* ---------------------------------HEADINGS AND TEXT COLOR-------------------------- */
 h1, h2, h3, h4, h5, h6 {
     color:#28536b !important;
     font-weight: bold !important;
@@ -85,7 +85,7 @@ p, li, span, small, strong, em {
     color: #1e3e4e !important;
 }
 
-/* NAV BAR STYLING */ 
+/* ---------------------------------------NAV BAR STYLING---------------------------- */ 
 .navbar,
 .navbar-dark.bg-dark {
     background-color: #28536b !important; // dark blue nav container
@@ -122,49 +122,48 @@ p, li, span, small, strong, em {
 }
 
 
-/* FOOTER STYLING */
+/* -----------------------------FOOTER STYLING--------------------------------------- */
 footer.bg-dark {
     background-color: #28536b !important; // dark blue footer mactch main nav
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
+
 
 footer .border-white {
     border-color:#f6f0ed !important;
 }
 
-footer .text-white,
-footer .text-light,
-footer .nav-link {
-  color: #f6f0ed !important;
-}
-
 footer,
-footer p,
-footer a,
-footer .text-muted {
-    color:#f6f0ed !important;
+footer * {
+    color: #f6f0ed !important;
 }
 
-footer .navbar-nav {
+/* foooter menu layout, flex row */
+
+footer .col:last-child {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-evenly !important;
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    margin: 0%;
+    justify-content: center !important; // switch from left
+    align-items: center !important;
+    flex-wrap: wrap;         
+    gap: 1.5rem;              // link spaces
 }
 
-footer .navbar-nav .nav-link {
-    color:#f6f0ed !important;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+/* links */
+
+footer .col:last-child a {
+    text-decoration: none !important;
+    font-size: 1.1rem;
+    font-weight: 400;
+    white-space: nowrap;     // troubleshoot fix for weird breaking
 }
 
-footer .navbar-nav .nav-link:hover {
-  text-decoration: underline; // no comms through color
+/* Hover: underline only */
+footer .col:last-child a:hover {
+    text-decoration: underline !important;
 }
 
-/* SEARCH BAR STYLE WHEN MOVED TO TOP RIGHT CORNER */
+/* -----------------------SEARCH BAR STYLE WHEN MOVED TO TOP RIGHT CORNER--------------------- */
 #floating-search {
   position: fixed;
   top: 1rem;
@@ -202,7 +201,7 @@ footer .navbar-nav .nav-link:hover {
   transform: scale(1.05);
 }
 
-/* FORCE BANNER TO HAVE CREAM TEXT*/
+/* ----------------------------------------BANNER STYLE------------------------------------*/
 #home-banner .p-2.text-center.text-white.bg-dark.bg-opacity-75 h1,
 #home-banner .p-2.text-center.text-white.bg-dark.bg-opacity-75 p {
     color: #f6f0ed !important;
