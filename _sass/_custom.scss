@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   --bs-link-hover-color: #1e3e4e !important;   // Slightly darker but there will also be an underline //
 }
 
-/* ----------------------------LINK STYLING AS MENTIONED ABOVE 
+/* ----------------------------LINK STYLING AS MENTIONED ABOVE -----------------------------
 ----------------DARK TEXT IN NORMAL STATE, DARKER + UNDERLINE ON HOVER------------------------------- */
 a {
     color:#28536b !important; 
@@ -115,14 +115,14 @@ p, li, span, small, strong, em {
 
 .navbar-dark .navbar-nav .nav-link,
 .navbar-dark .navbar-brand {
-    color:#f6f0ed !important; // cream text in nav bar
+    color:#f6f0ed !important; // cream text in nav bar 
     text-decoration: none !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
     text-decoration: underline !important; // show underline when hovering over menu items in nav
-}
+} // note gold could look cool upon hover...js
 
 /* auto drop down in nav over click default */
 .navbar .dropdown:hover .dropdown-menu {
