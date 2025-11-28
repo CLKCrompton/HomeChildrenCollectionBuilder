@@ -265,6 +265,12 @@ footer .col:last-child a:hover {
 }
 
 #home-title-box {
-    padding-top: 10rem !important;
-    padding-bottom: 10rem !important; // centers text within hero banner
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   // center vertically 
+    align-items: center;       // center horizontally 
+    height: 100%;              // let box fill the banner 
+    min-height: 50vh;          // adjust height 
+    padding: 0 !important;     
+    text-align: center;
 }
