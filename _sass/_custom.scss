@@ -4,6 +4,74 @@
 */
 /* Vanessa customizing css lets go :) */
 
+/* ------------------ ACCESSIBILITY FEATURES ---------------- */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: auto;
+    background: #28536b;
+    color: #f6f0ed;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    z-index: 10000;
+    font-weight: bold;
+    border-radius: 0 0 4px 0;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #FFBC48;
+    outline-offset: 2px;
+}
+
+/* enhanced focus inicators for keyboard nav */
+*:focus {
+    outline: 3px solid #FFBC48 !important; // gold outline for enhanced visibility
+    outline-offset: 2px !important;
+}
+
+/* remove focus for mouse click but keep for keyboard */
+*:focus:not(:focus-visible) {
+    outline: none !important;
+}
+*:focus-visible {
+    outline: 3px solid #FFBC48 !important; 
+    outline-offset: 2px !important;
+}
+
+/* focus for interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #FFBC48 !important; 
+    outline-offset: 2px !important;
+    box-shadow: 0 0 0 3px rgba(255, 188, 72, 0.3);
+}
+
+
+/* reduce motion function for users that perfer */
+/* crediting this idea to Vanessa's partner */ 
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    /* Disable button scale transform */
+    .btn:hover,
+    .btn:focus {
+        transform: none !important;
+    }
+}
+
+
 
 /* MAIN BODY PADDING */
 
