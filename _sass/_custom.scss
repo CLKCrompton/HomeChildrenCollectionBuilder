@@ -121,6 +121,11 @@ main#maincontent {
     padding: 2rem !important;   /* adjust value if needed */
 }
 
+/* Add focus indicator for main content area */
+main#maincontent:focus {
+    outline: none; // this will skip link targets that don't need visible outline
+}
+
 /* ------------------------------GLOBAL FONT OVERRIDE------------------------------- */
 :root {
     --bs-body-font-family: 'Trebuchet MS', sans-serif !important
@@ -247,7 +252,7 @@ li {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #FFBC48 !important; 
     text-decoration: underline !important; // show underline when hovering over menu items in nav
-} // note gold could look cool upon hover...js
+} //
 
 /* auto drop down in nav over click default */
 .navbar .dropdown:hover .dropdown-menu {
@@ -299,11 +304,6 @@ footer nav .nav-link:hover {
     text-decoration: underline !important;
 }
 
-/* Optional: smooth transition for footer nav */
-footer nav .nav-link {
-    transition: color 0.25s ease-in-out;
-}
-
 
 footer .border-white {
     border-color:#f6f0ed !important;
@@ -331,6 +331,9 @@ footer .col:last-child a {
     font-size: 1.1rem;
     font-weight: 400;
     white-space: nowrap;     // troubleshoot fix for weird breaking
+    min-height: 44px; // touch target
+    display: inline-flex;
+    align-items: center;
 }
 
 /* Hover: underline only */
@@ -356,6 +359,7 @@ footer .col:last-child a:hover {
   border: 2px solid #28536b;
   background-color: #ffffff;
   color: #28536b;
+  min-height: 44px; // accessibility
 }
 
 /* ONLY style the search bar button */
@@ -404,4 +408,22 @@ footer .col:last-child a:hover {
     min-height: 50vh;          // adjust height 
     padding: 0 !important;     
     text-align: center;
+}
+
+/* ----------print style for accessibility----*/
+@media print {
+    body {
+        background: white;
+        color: black;
+        font-size: 12pt;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    /* Show URLs after links */
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
 }
