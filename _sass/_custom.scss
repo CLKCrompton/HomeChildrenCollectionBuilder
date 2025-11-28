@@ -121,6 +121,7 @@ p, li, span, small, strong, em {
 
 .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFBC48 !important; 
     text-decoration: underline !important; // show underline when hovering over menu items in nav
 } // note gold could look cool upon hover...js
 
