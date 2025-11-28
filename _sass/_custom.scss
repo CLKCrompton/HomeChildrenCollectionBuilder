@@ -4,6 +4,13 @@
 */
 /* Vanessa customizing css lets go :) */
 
+
+/* MAIN BODY PADDING */
+
+main#maincontent {
+    padding: 2rem !important;   /* adjust value if needed */
+}
+
 /* ------------------------------GLOBAL FONT OVERRIDE------------------------------- */
 :root {
     --bs-body-font-family: 'Trebuchet MS', sans-serif !important
