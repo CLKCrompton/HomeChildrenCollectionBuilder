@@ -82,6 +82,14 @@ button.btn:focus {
     text-decoration: none !important; // links have underlines but buttons dont
 }
 
+/* ---------------PAGINATION ACTIVE STATE COLOR CHANGE-----------------*/
+.page-item.active .page-link {
+    background-color: #7EA8BE !important; // lightblue from palette
+    border-color: #7EA8BE !important;
+    color:#1e3e4e !important; // a bit darker than selected dark blue to reach contrast standards
+}
+
+
 /* ---------------------------------HEADINGS AND TEXT COLOR-------------------------- */
 h1, h2, h3, h4, h5, h6 {
     color:#28536b !important;
