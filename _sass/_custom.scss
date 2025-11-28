@@ -161,6 +161,18 @@ footer h2.h4 a.text-white {
     transition: color 0.25s ease-in-out;
 }
 
+/* Gold hover for ALL footer nav links */
+footer nav .nav-link:hover {
+    color: #FFBC48!important; /* gold */
+    text-decoration: underline !important;
+}
+
+/* Optional: smooth transition for footer nav */
+footer nav .nav-link {
+    transition: color 0.25s ease-in-out;
+}
+
+
 footer .border-white {
     border-color:#f6f0ed !important;
 }
