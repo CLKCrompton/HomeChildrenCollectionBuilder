@@ -205,23 +205,22 @@ footer .col:last-child a:hover {
   color: #28536b;
 }
 
-/* Search button styling */
-#floating-search-btn {
-  background-color: #28536b !important;  // Blue button neutral
-  border: 2px solid #28536b !important;
-  color: #c2948a !important;            // pink text/icon 
-  font-weight: bold !important; // make it bold
-  transform: scale(1);
+/* ONLY style the search bar button */
+#floating-search .btn {
+    background-color: #7EA8BE !important;
+    border-color: #7EA8BE !important;
+    color: #1e3e4e !important;
+    transform: scale(1);
 }
 
-/* Hover state */
-#floating-search-btn:hover {
-  background-color:  #c2948a !important;    // inverses     
-  border-color:  #c2948a !important;     // inverses   
-  color:#28536b !important; // inverses 
-  font-weight: bold !important; // make it bold
-  transform: scale(1.05);
+/* Hover styling just for the search button */
+#floating-search .btn:hover {
+    background-color: #1e3e4e !important; // swap
+    border-color: #1e3e4e !important;
+    color: #7EA8BE !important;
+    transform: scale(1.05);
 }
+
 
 /* ----------------------------------------BANNER STYLE------------------------------------*/
 #home-banner .p-2.text-center.text-white.bg-dark.bg-opacity-75 h1,
