@@ -89,6 +89,13 @@ button.btn:focus {
     color:#1e3e4e !important; // a bit darker than selected dark blue to reach contrast standards
 }
 
+/* adds hover effect for pagination consistency */
+.page-item.active .page-link:hover,
+.page-item.active .page-link:focus {
+    background-color: #7EA8BE !important;
+    border-color: #7EA8BE !important;
+    color: #1e3e4e !important;
+}
 
 /* ---------------------------------HEADINGS AND TEXT COLOR-------------------------- */
 h1, h2, h3, h4, h5, h6 {
