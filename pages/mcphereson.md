@@ -14,7 +14,12 @@ Annie Macpherson had a complex legacy. In her time she was viewed as a compassio
 
 ## Bibliography
 “Annie Macpherson,” _British Home Children Descendants_, archived July 25, 2011, accessed via Internet Archive, https://web.archive.org/web/20110725102229/http://www.britishhomechildren.org/index.php?option=com_content&view=article&id=190%3Aannie-macpherson&catid=27%3Asending-agency-founders&Itemid=2
+
 “Annie Macpherson,” _Stratford & District Historical Society_, last modified January 29, 2022, accessed November 29, 2025, https://sdhs2019.ca/annie-macpherson/ 
-“Case # 5: Literature on the British Home Children in Canada,” _Little Wanderers: A Literary History of the British Home Children in Canada_, Children’s Literature Collection (CLC), accessed November 29, 2025, https://clc.omeka.net/exhibits/show/little-wanderers/home-children-in-canada 
+
+“Case # 5: Literature on the British Home Children in Canada,” _Little Wanderers: A Literary 
+History of the British Home Children in Canada_, Children’s Literature Collection (CLC), accessed November 29, 2025, https://clc.omeka.net/exhibits/show/little-wanderers/home-children-in-canada 
+
 Janet M. Todd, _A Dictionary of British and American Women Writers_, 1660–1800 (Totowa, N.J.: Rowman & Allanheld, 1985), page 106, accessed via Internet Archive, https://archive.org/details/dictionaryofbrit00redi/page/106/mode/2up 
+
 “Philanthropist Annie Macpherson,” _Laurie Ness Gordon Blog_, January 14, 2024, https://laurienessgordon.com/2024/01/philanthropist-annie-macpherson/
