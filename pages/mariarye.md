@@ -16,6 +16,7 @@ Though child immigration to Canada began earlier, “[it] did not gain momentum 
 She continued to advocate for child emigration even as public opinions were shifting. Her placement methods were singled out by Andrew Doyle as being inattentive and unsystematic in his 1875 report on Canada’s pauper children. By 1895, the government in Ontario was reexamining its regulations for child immigration and Rye would transfer her distribution centers to the Church of England Waifs and Strays Society before retiring with her sister to Hemel Hempstead. She died at their residence in Baconsthorpe in 1903.
 
 She was a leading figure of the mid-19th century women’s movement in England.
+
 ---
 ## Bibliography
 Diamond, M. (1997). Maria Rye and “The Englishwoman’s Domestic Magazine.” _Victorian Periodicals Review_, 30(1), 5–16.
