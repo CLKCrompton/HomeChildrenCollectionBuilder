@@ -18,6 +18,7 @@ She continued to advocate for child emigration even as public opinions were shif
 She was a leading figure of the mid-19th century women’s movement in England.
 
 ---
+
 ## Bibliography
 Diamond, M. (1997). Maria Rye and “The Englishwoman’s Domestic Magazine.” _Victorian Periodicals Review_, 30(1), 5–16.
 
