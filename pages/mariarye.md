@@ -1,6 +1,6 @@
 ---
 title: Maria S. Rye
-layout: About
+layout: about
 permalink: /mariarye.html
 # defines maria rye links and such..
 ---
