@@ -7,5 +7,7 @@ Owen’s term as superintendent was not without controversy. In 1910, C. H. Blac
 
 ## Bibliography
 Alfred de Brissac Owen. (1944, November 18). Obituaries. _The Montreal Gazette_, p. 14. https://montrealgazette.newspapers.com/image-view/419426308/?match=1&terms=Owen. 
+
 Geni. (n.d.). _Alfred De Brissac Owen_ [Profile]. Geni.com. Retrieved November 21, 2025, from https://www.geni.com/people/Alfred-De-Brissac-Owen/6000000089930973057.  
+
 Rose, J. (1989). _For the sake of the children: Inside Barnardo’s 120 years of caring for children_. Futura Publications. https://archive.org/details/forsakeofchildre0000rose/mode/2up. 
