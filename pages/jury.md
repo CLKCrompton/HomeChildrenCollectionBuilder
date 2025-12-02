@@ -1,3 +1,9 @@
+---
+title: Alfred Fredman Jury
+layout: about
+permalink: /jury.html
+---
+
 ## Alfred F. Jury
 Alfred Fredman Jury was born January 31st, 1848 in Maidstone, England. He apprenticed as a tailor and in 1868 became a journeyman, joining the Amalgamated Society of Tailors. He rose rapidly through the ranks and became the president of his local branch and a representative to the Maidstone Trades Council.
 
