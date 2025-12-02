@@ -1,12 +1,8 @@
 ---
 title: Story Map
-layout: about
+layout: maps
 permalink: /storymap.html
 ---
 
 
-# Sample Embedding of a YouTube video
-
-Here is hoping
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SWSuZO_ZPuU?si=2piM6KT9y56VYhHr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://storymaps.arcgis.com/stories/6996d8315a904256bf52853f7cb82a07" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
