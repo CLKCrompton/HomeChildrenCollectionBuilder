@@ -1,3 +1,9 @@
+---
+title: Alfred B. Owen
+layout: about
+permalink: /owen.html
+---
+
 ## Alfred B. Owen
 Alfred de Brissac Owen was heavily involved in the Barnardo Homes organization from 1884 until his quiet removal from the program in Spring 1919. Owen was born in 1863 in Damerham, Hampshire, England and died at 81 on November 13th, 1944, in Kelowna, British-Columbia, Canada. Owen came to Canada in 1882 and began working for Dr. Barnardo’s Homes in 1884, rising from staff member to superintendent in a short period of time. He oversaw Canadian immigration work for Barnardo’s Homes and was responsible for bringing around 25,000 British children into Canada. The Peterborough, Ontario distribution centre, the Toronto, Ontario main office, and the Russel, Manitoba training farm were all initiatives led by Owen. 
 
