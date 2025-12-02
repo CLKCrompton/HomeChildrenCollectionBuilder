@@ -7,7 +7,7 @@ credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-{% include feature/nav-menu.html sections="About the Project;Positionality Statement;Credits;About the Collection;" %}
+{% include feature/nav-menu.html sections="About the Project;Positionality Statement;Credits;" %}
 ## About the Project
 A forced child migration and labour program, the Home Children Program was run by the Canadian government from 1869-1939. Approximately 100,000 children were moved to Canada in that time period, with very little oversight after they were sent to work as farm labourers or domestic servants. About 12% of the current Canadian population are related to Home Children. The website will allow for those interested in the Home Children Program from 1893-1910, and in particular the Barnardo Homes, to search through these materials more easily.
 
@@ -25,18 +25,9 @@ The course was taught and the project was overseen by Dr. Constance Crompton.
 Metadata standards were selected and spreadsheet cleaning was conducted by
 Sherry Kuang, Margaret Rose, Marlo Sleiman, Kayla Wemp, and Hafsa Er-rouijl. Alt text standards were created and overseen by Marta Vi. Meljnik. Maps and map standards were overseen by Jhayclark, Lilliana Cianci, Kayla Wemp, and Gabrielle Mandel. All students contributed to metadata creation.
 
-Transcriptions were created by Marlo Sleiman and Emma DesRosiers. The biography on Alfred B. Owen was written by Emma DesRosiers. The biographies on Annie MacPherson and Thomas J. Barnardo were written by Gabrielle Mandel. The biographies on Maria S. Rye and Alfred F. Jury were written by Manon Barré. Historical context essays were written by Jhayclark, Ian Reid, and Marta Vi. Meljnik. Jhayclark wrote X; Marta Vi. Meljnik wrote The Work Being Done; and Ian Reid wrote Z.
+Transcriptions were created by Marlo Sleiman and Emma DesRosiers. The biography on Alfred B. Owen was written by Emma DesRosiers. The biographies on Annie MacPherson and Thomas J. Barnardo were written by Gabrielle Mandel. The biographies on Maria S. Rye and Alfred F. Jury were written by Manon Barré. Historical context essays were written by Jhayclark, _Government Policy, Political Motives, and Bilateral Power_ and Marta Vi. Meljnik, _The Work Being Done_. Ian Reid created the video essay _Home Children and the Canadian Parliament_.
 
 Website design and accessibility standards were overseen by Sherry Kuang, Vanessa Belanger, Lilliana Cianci, and Gabrielle Mandel. GitHub final push was done by Sherry Kuang, Margaret Rose, Vanessa Belanger, and Hafsa Er-rouijl.
 
 
 The about section, positionality statement, and credits were written by Manon Barré.
-## About the Collection
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
-
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
-
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
-
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
