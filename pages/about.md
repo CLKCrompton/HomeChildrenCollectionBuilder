@@ -9,7 +9,7 @@ credits: true
 ---
 {% include feature/nav-menu.html sections="About the Project;Positionality Statement;Credits;" %}
 ## About the Project
-A forced child migration and labour program, the Home Children Program was run by the Canadian government from 1869-1939. Approximately 100,000 children were moved to Canada in that time period, with very little oversight after they were sent to work as farm labourers or domestic servants. About 12% of the current Canadian population are related to Home Children. The website will allow for those interested in the Home Children Program from 1893-1910, and in particular the Barnardo Homes, to search through these materials more easily.
+A forced child migration and labour program, the Home Children Program was run by the Canadian government from 1869-1939. Approximately 100,000 children were moved to Canada in that time period, with very little oversight after they were sent to work as farm labourers or domestic servants. About 12% of the current Canadian population are related to Home Children. The website will allow for those interested in the Home Children Program from 1875-1910, and in particular the Barnardo Homes, to search through these materials more easily.
 
 This website was created as part of the course _Web Fragility and the Future of Knowledge_, offered during the 2025 fall term at the University of Ottawa. Using the [Endings Project](https://endings.uvic.ca/principles.html) principles as a framework, this course addressed past, present, and future problems around archiving and maintaining digital information infrastructure and the ways in which these systems may be improved to ensure valuable information remains accessible on the web into the future.
 
