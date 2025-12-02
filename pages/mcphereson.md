@@ -1,5 +1,5 @@
 ---
-title: Annie McPhereson
+title: Annie MacPhereson
 layout: about
 permalink: /mcphereson.html
 ---
